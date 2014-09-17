@@ -1,0 +1,33 @@
+{
+  "name": "harmindervirk",
+  "version": "0.0.1",
+  "description": "Nut is an ultimate nodejs command line arguments manager,it helps you in setting up help menu and listen to user arguments in a linear fashion",
+  "main": "nut.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thetutlage/nut.git"
+  },
+  "keywords": [
+    "cli-menu",
+    "cli-arguments",
+    "cli",
+    "commander"
+  ],
+  "author": "amanvirk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thetutlage/nut/issues"
+  },
+  "homepage": "https://github.com/thetutlage/nut",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "easy-table": "^0.3.0",
+    "underscore": "^1.7.0"
+  }
+}
