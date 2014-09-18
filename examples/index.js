@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var nut = require('../nut')();
+var nut = require('../nut');
 
 // Your app command eg bower
 nut.bootCommand('gitHut');

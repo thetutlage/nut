@@ -81,11 +81,11 @@ function parse(){
 	var userCommands = {};
 	if(arguments[0] == 'help'){
 		if(typeof(arguments[1]) == 'undefined'){
-			this.showHelp();
+			showHelp();
 		}else if(_.contains(commands,arguments[1])){
-			this.showCommandHelp(arguments[1]);					
+			showCommandHelp(arguments[1]);					
 		}else{
-			this.showHelp();
+			showHelp();
 		}
 		process.exit(0);
 	}
