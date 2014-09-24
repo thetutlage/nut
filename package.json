@@ -1,5 +1,5 @@
 {
-  "name": "nut",
+  "name": "nut-cli",
   "version": "0.0.1",
   "description": "Nut is an ultimate nodejs command line arguments manager,it helps you in setting up help menu and listen to user arguments in a linear fashion",
   "main": "nut.js",

@@ -7,7 +7,7 @@ Example
 ```javascript
 
 	#!/usr/bin/env node
-	var nut = require('nut');
+	var nut = require('nut-cli');
 
 	// Your app command eg bower
 	nut.bootCommand('gitHut');
